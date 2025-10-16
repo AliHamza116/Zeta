@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-slide {
+  animation: slide 20s linear infinite;
+}
+
+.gradient-text {
+  background: linear-gradient(to right, #CC0378, #E89863);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text; /* for Firefox */
+  color: transparent;     /* fallback */
+}
+
+/* :root {
+  --color-methane: #035CD4;
+  --color-ethane: #027BE0;
+  --color-propane: #F5F5F5;
+  --color-butane: #0605AF;
+  --color-pentane: #66669A;
+  --color-hexane: #252626;
+  --color-heptane: #66668B;
+  --color-octane: #00003D;
+  --color-nonane: #0605AF;
+  --color-decane: #0905AF;
+
+  --color-exa: #CB0078;
+  --color-peta: #A10060;
+  --color-giga: #E2A6C1;
+  --color-mega: #E9E9E9;
+  --color-kilo: #05BCFB;
+  --color-deca: #A12894;
+  --color-tera: #F6DF58;
+  --color-deci: #3546466F;
+  --color-centi: #ADADC0;
+} */
+
+
+/* .theme-dark {
+  --color-primary: #0F172A; 
+  --color-secondary: #E11D48; 
+  --color-accent: #22D3EE; 
+} */
+
